@@ -41,7 +41,7 @@
 
   <body>
 
-  <?= include_once './templates/navbar.php' ?>
+  <?php include_once './templates/navbar.php' ?>
   
     <div class="container">    
       <div class="row">

@@ -13,12 +13,13 @@
         width: 350px;
         margin: 0 auto;
       }
+      
     </style>
   </head>
 
   <body>
 
-  <?= include_once './templates/navbar.php' ?>
+  <?php include_once './templates/navbar.php' ?>
 
     <div class="container">    
       <div class="row">
@@ -63,7 +64,7 @@
                   
                 <?php } ?>
                 <div class="d-grid">
-                  <button class="btn btn-lg btn-primary  btn-block  mt-2" type="submit">Entrar</button>
+                  <button class="btn btn-lg btn-dark bg-black  btn-block  mt-2" type="submit">Entrar</button>
 
                 </div>
               </form>
